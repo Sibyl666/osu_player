@@ -118,7 +118,6 @@ class Main(QMainWindow):
     @Slot(str)
     def change_map_title(self, words):
         print(words)
-        print("annen")
         self.map_name.setText(words)
         self.setWindowTitle(words)
 
